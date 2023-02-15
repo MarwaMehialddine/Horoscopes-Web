@@ -1,7 +1,7 @@
 section{
     text-align:center;
     color:white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('gal.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/gal.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -61,7 +61,7 @@ section{
   }
   section .div{
     text-align:start;
-    padding-top:1rem;
+    padding-top:5rem;
     display:flex;
     align-items:center;
   }
@@ -95,6 +95,7 @@ section{
     }
     section .div{
         justify-content: center;
+        padding-top:1rem;
     }
     section .div p{
         font-size:1.2rem;

@@ -21,6 +21,8 @@ body{
 
 }
 .home img{
+    margin-top:2.5rem;
+    margin-left:1.5rem;
   float:right;
   animation-name: rotate;
     animation-duration: 20s;
@@ -68,8 +70,8 @@ body{
       position:absolute;
         height:290px;
         width:300px;
-        margin-top:268px;
-      right:50px;
+        margin-top: 158px;
+right: 80px;
     }
    .home .content{
      max-width:40rem;

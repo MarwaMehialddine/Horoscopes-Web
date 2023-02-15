@@ -52,7 +52,7 @@
     font-weight:bold;
     font-size:1.2rem;
   }
-  .nav-links a:hover{
+  .nav-links li a:hover{
     color:#6495ED;
   }
   .logo svg:hover{

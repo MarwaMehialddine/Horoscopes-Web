@@ -22,15 +22,29 @@
   .overview p{
     padding:25px 5px;
   }
-  
-  section{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/gal.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
+  .go-back{
+    color:white;
+  }
+  .go:hover{
+    color:#6495ED;
+  }
+  .go{
+    position: relative;
+    top: 171px;
+    left: 80px;
+    text-decoration:none;
+    color:white;
+  }
+  .main{
     text-align:start;
     color:white;
     padding:2rem 10%;
   
+  }
+  section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/gal.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   h1{
     margin-top:6rem;
@@ -92,4 +106,10 @@
       padding-top:1rem;
       padding-bottom:1rem;
     }
+    .go{
+        position: relative;
+        left: 20px;
+        text-decoration:none;
+        color:white;
+      }
   }
