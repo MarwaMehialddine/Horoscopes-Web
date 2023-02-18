@@ -53,20 +53,17 @@ a{
 }
 .card1{
   background: #00B4DB;  
-background: -webkit-linear-gradient(to bottom, #0083B0, #00B4DB);  
 background: linear-gradient(to bottom, #0083B0, #00B4DB); 
 
 
 }
 .card2{
   background: #6a3093; 
-background: -webkit-linear-gradient(to left, #a044ff, #6a3093); 
 background: linear-gradient(to left, #a044ff, #6a3093); 
 
 }
 .card3{
   background: #ec008c;  
-background: -webkit-linear-gradient(to bottom, #fc6767, #ec008c);
 background: linear-gradient(to bottom, #fc6767, #ec008c); 
 
 }
@@ -136,6 +133,7 @@ background: linear-gradient(to bottom, #fc6767, #ec008c);
   text-align:center;
 }
   .home .card{
+    position:static !important;
     height:20.5rem;
     width:100%;
     margin-bottom:1.8rem;

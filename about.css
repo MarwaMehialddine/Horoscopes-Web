@@ -247,6 +247,7 @@
        margin-left:auto;
        margin-right:auto;
        width:50%;
+       margin-top:2.5rem;
      }
     .containerr .r1{
       display:block;
@@ -259,29 +260,30 @@
       font-size:1.2rem;
     }
     .services button{
-      font-size:1.2rem;
+      font-size:1.1rem;
     }
     .box p{
       padding: 20px 40px;
     }
     .fle .content1 p{
-      font-size:1rem;
+      font-size:0.8rem;
     }
    .fle .content1 h3{
     font-size:1.6rem;
   }
   .services h2{
-    font-size:2rem;
+    font-size:1.8rem;
   }
   .fle .content1{
-    bottom: 250px;
+    bottom: 200px;
     font-size:1rem;
   }
   .fle .image{
     width:100%;
   }
-  .fle .image .rotate, .fle .image img{
-    width:100%;
+   .fle .image img{
+    width:80%;
+    margin-left:35px;
   }
   .service{
     bottom:200px;
@@ -289,11 +291,18 @@
   .service #p{
     margin-right:0rem;
     margin-left:0rem;
-    
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: grey;
+  }
+  .about{
+    margin-top:1rem;
   }
   .fle .rotate{
-    right:10px;
-    bottom:300px;
+    margin-left:0px;
+    width:80%;
+    left: 0rem;
+    bottom: 240px;
   }
   .container1{
     width:100%;

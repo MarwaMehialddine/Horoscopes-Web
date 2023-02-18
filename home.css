@@ -69,9 +69,9 @@ body{
     .home img { 
       position:absolute;
         height:290px;
-        width:300px;
-        margin-top: 158px;
-right: 80px;
+        width:250px;
+        margin-top: 298px;
+right: 60px;
     }
    .home .content{
      max-width:40rem;

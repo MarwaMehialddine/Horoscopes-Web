@@ -35,7 +35,6 @@ html, body {
     font-size:1.2rem;
     display:none;
     color:#6495ED;
-    text-decoration:underline;
   }
   .flex p{
     margin-left:10px;
@@ -74,10 +73,6 @@ html, body {
     text-align:start;
     padding-bottom:3rem;
   }
-  /* .buttons{
-    margin-left:6rem;
-    display:none;
-  } */
   #content p{
     margin-bottom:1rem;
     line-height:1.5;
@@ -99,16 +94,17 @@ html, body {
   @media (max-width:768px){
     button, .form select{
       margin-left:0rem;
-      font-size:1rem;
+      font-size:0.8rem;
     }
     button{
       margin-top:2rem;
     }
     section h1{
       font-size:1.8rem;
+      padding-top: 5rem;
     }
     h2{
-      font-size:1.4rem;
+      font-size:1rem;
     }
     .flex p{
       text-align: center;
@@ -128,5 +124,18 @@ html, body {
     #content{
       padding:0rem 2rem;
       font-size:1rem;
+    }
+    .container{
+        padding: 2rem 8%;
+    }
+    p{
+      padding-top:1rem;
+      margin-right: 20px;
+      margin-left: 20px;
+      font-size:0.8rem;
+      line-height:1.5;
+    }
+    section h1{
+      font-size:1.4rem;
     }
   }

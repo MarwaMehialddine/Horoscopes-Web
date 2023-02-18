@@ -106,22 +106,26 @@ html, body {
   }
   @media (max-width:768px){
     button, .form select{
-      font-size:1rem;
+      font-size:0.8rem;
     }
     section h1{
       font-size:1.8rem;
     }
     h2{
-      font-size:1.2rem;
+      font-size:1.1rem;
     }
     .flex{
       display:block;
     }
     p{
       padding-top:1rem;
-    margin-right:0px;
-    margin-left:0px;
-      font-size:1rem;
+      margin-right: 20px;
+      margin-left: 20px;
+      font-size:0.8rem;
+      line-height:1.5;
+    }
+    section h1{
+      font-size:1.4rem;
     }
     .flex p{
       text-align: center;

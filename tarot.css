@@ -24,7 +24,7 @@
     width:50%;
     margin-right:auto;
     margin-left:auto;
-    margin-bootom:4rem;
+    margin-bottom:4rem;
   }
   .content h1 {
      padding: 5px  0;
@@ -149,12 +149,60 @@
       transform:rotate(0deg);
       bottom:0px;
     }
-    .img7, .img8, .img9, .img10, .img11, .img12{
+    .img6, .img5, .img4, .img7, .img8, .img9, .img10, .img11, .img12{
       display:none;
     }
-    .carousel-item p{
+    .no{
+      display:none;
+    }
+    img{
+      width:250px;
+    }
+    .yes3{
+      right:700px;
+    }
+    .yes2{
+      right:400px;
+    }
+    .yes1, .yes2, .yes3{
+      position:relative;
+    }
+    .carousel{
+      width:100%;
+    }
+    .content p{
+      margin-right: 20px;
+    margin-left: 20px;
+    font-size: 0.8rem;
+    }
+    .content h1{
+      font-size:1.5rem;
+    }
+    /* .carousel-item p{
       margin-left:0rem;
       margin-right:0rem;
+    } */
+    .carousel-item p{
+      margin-left: 3rem;
+    margin-right: 3rem;
+    font-size:0.8rem;
+    }
+    .container{
+      margin-top:0rem;
+      margin-bottom:4rem;
+      width:100%;
+    }
+    .img1{
+      right:10px;
+      
+    }
+    .img2{
+      right:0px;
+      left:170px;
+    }
+    .img3{
+      right:0px;
+      left:255px;
     }
     .content{
       margin-left:0px;

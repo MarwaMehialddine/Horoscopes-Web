@@ -85,6 +85,12 @@ section{
     .img{
         margin-top:4rem;
     }
+    .content p{
+      font-size: 0.8rem;
+    padding: 0px 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
     .flex{
         display:block;
         padding:0rem 10%;
@@ -98,11 +104,16 @@ section{
         padding-top:1rem;
     }
     section .div p{
-        font-size:1.2rem;
+        font-size:1rem;
         text-align:center;
     }
     .content{
+        max-width: none;
         margin-left:0;
         margin-right:0;
+        padding-top:6rem;
+    }
+    .content h1{
+      font-size:1.5rem;
     }
 }
