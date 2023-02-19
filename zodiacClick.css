@@ -55,6 +55,9 @@
     width:95%;
     padding:2rem 8%;
   }
+  .head h2{
+    font-size:1.8rem;
+  }
   .overview{  
     border:1px solid grey;
     border-radius:10px;
@@ -91,6 +94,9 @@
     .head, .description{
       width:100%;
     }
+    .description p{
+      font-size: 0.9rem;
+    }
     .overview .col-1{
       padding-left:0px;
     }
@@ -99,7 +105,7 @@
       font-size:1.8rem;
     }
     .description h2{
-      font-size:1.7rem;
+      font-size:1.4rem;
     }
     .overview{
       display:block;
@@ -108,6 +114,7 @@
       padding:8px 16px;
     }
     .head h2{
+      font-size:1.5rem;
       padding-top:1rem;
       padding-bottom:1rem;
     }
