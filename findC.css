@@ -104,6 +104,9 @@ html, body {
     outline:none;
     border:1px solid white;
   }
+  #color{
+    background-color:black;
+  }
   @media (max-width:768px){
     button, .form select{
       font-size:0.8rem;
